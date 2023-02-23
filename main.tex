@@ -1,8 +1,6 @@
 
 \documentclass{report}
-\input{preamble}
-\graphicspath{ {Images/} }
-
+\input{Preamble/preamble}
 
     \title{\Huge{
             Physics
@@ -20,8 +18,8 @@
     \newpage% or \cleardoublepage
     % \pdfbookmark[<level>]{<title>}{<dest>}
     \pdfbookmark[section]{\contentsname}{toc}
-    \tableofcontents \pagebreak 
-    
-    
+    % \tableofcontents \pagebreak 
+
+    \input{toc.tex}
 
 \end{document}
